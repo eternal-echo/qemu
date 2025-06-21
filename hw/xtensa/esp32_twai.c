@@ -22,6 +22,8 @@ static const VMStateDescription vmstate_esp32_twai = {
     .minimum_version_id = 1,
     .fields = (VMStateField[]) {
         VMSTATE_STRUCT(sja_state, Esp32TWAIState, 0, vmstate_can_sja, CanSJA1000State),
+        VMSTATE_UINT32(interrupt_enable, Esp32TWAIState),
+        VMSTATE_UINT32(interrupt_state, Esp32TWAIState),
         VMSTATE_END_OF_LIST()
     }
 };
@@ -31,7 +33,29 @@ static void esp32_twai_reset(Object *obj, ResetType type)
     Esp32TWAIState *d = Esp32_TWAI(obj);
     CanSJA1000State *s = &d->sja_state;
 
-    can_sja_hardware_reset(s); 
+    /* Reset SJA1000 hardware */
+    can_sja_hardware_reset(s);
+    
+    /* Initialize interrupt control fields */
+    d->interrupt_enable = ESP32_TWAI_INTR_TI | ESP32_TWAI_INTR_RI | ESP32_TWAI_INTR_EI;
+    d->interrupt_state = 0;
+}
+
+static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
+{
+    Esp32TWAIState *d = (Esp32TWAIState *)opaque;
+
+    /* Update interrupt state */
+    d->interrupt_state = level;
+    
+    /* Only forward interrupt if enabled - default to enabled for basic functionality */
+    if (d->interrupt_enable != 0) {
+        if (level) {
+            qemu_irq_raise(d->irq);
+        } else {
+            qemu_irq_lower(d->irq);
+        }
+    }
 }
 
 static uint64_t esp32_twai_read(void * opaque, hwaddr addr, unsigned int size)
@@ -75,7 +99,11 @@ static void esp32_twai_realize(DeviceState *d, Error **errp)
 {
     Esp32TWAIState *s = Esp32_TWAI(d);
 
-    can_sja_init(&s->sja_state, s->irq);
+    /* Allocate interrupt proxy handler */
+    s->irq_handler = qemu_allocate_irq(esp32_twai_irq_handler, s, 0);
+
+    /* Initialize SJA1000 with our interrupt handler */
+    can_sja_init(&s->sja_state, s->irq_handler);
 
     if (can_sja_connect_to_bus(&s->sja_state, s->canbus) < 0) {
         error_setg(errp, "TWAI can_sja_connect_to_bus failed");
