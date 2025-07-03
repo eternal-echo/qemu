@@ -711,6 +711,9 @@ uint64_t can_sja_mem_read(CanSJA1000State *s, hwaddr addr, unsigned size)
                        SJA_RCV_BUF_LEN];
             }
             break;
+        case SJA_RMC:
+            temp = s->rxmsg_cnt;
+            break;
         case SJA_CDR:
             temp = s->clock;
             break;
