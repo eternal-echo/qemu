@@ -18,7 +18,7 @@
 #include "qapi/error.h"
 #include "qemu/error-report.h"
 #include "hw/net/can/esp32_twai.h"
-#include "can_sja1000.h"
+#include "hw/net/can/can_sja1000.h"
 #include "qom/object.h"
 #include "hw/qdev-properties.h"
 #include "migration/vmstate.h"
@@ -42,37 +42,35 @@ static const VMStateDescription vmstate_esp32_twai = {
     }
 };
 
+/* Reset handler */
 static void esp32_twai_reset(Object *obj, ResetType type)
 {
-    Esp32TWAIState *d = ESP32_TWAI(obj);
-    CanSJA1000State *s = &d->sja_state;
+    Esp32TWAIState *s = ESP32_TWAI(obj);
 
-    /* Reset underlying SJA1000 hardware to its default state */
-    can_sja_hardware_reset(s);
+    /* Reset SJA1000 controller */
+    can_sja_hardware_reset(&s->sja_state);
     
-    /* Initialize interrupt control registers to their reset values:
-     * - Enable Transmit, Receive and Error interrupts by default
-     * - Clear any pending interrupt state
-     */
-    d->interrupt_enable = ESP32_TWAI_INTR_TI | ESP32_TWAI_INTR_RI | ESP32_TWAI_INTR_EI;
-    d->interrupt_state = 0;
+    /* Reset interrupt control registers */
+    s->interrupt_enable = ESP32_TWAI_INTR_TI | ESP32_TWAI_INTR_RI | 
+                         ESP32_TWAI_INTR_EI;
+    s->interrupt_state = 0;
 }
 
+/* Interrupt handler for SJA1000 events */
 static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
 {
-    Esp32TWAIState *d = (Esp32TWAIState *)opaque;
+    Esp32TWAIState *s = (Esp32TWAIState *)opaque;
 
-    /* Track the interrupt state from the underlying SJA1000 controller */
-    d->interrupt_state = level;
+    s->interrupt_state = level;
     
     /* Only forward interrupts to the CPU if they are enabled in the mask.
      * The interrupt enable mask defaults to enabled state for basic operation.
      */
-    if (d->interrupt_enable != 0) {
+    if (s->interrupt_enable != 0) {
         if (level) {
-            qemu_irq_raise(d->irq);
+            qemu_irq_raise(s->irq);
         } else {
-            qemu_irq_lower(d->irq);
+            qemu_irq_lower(s->irq);
         }
     }
 }
@@ -82,16 +80,15 @@ static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
  */
 static uint64_t esp32_twai_read(void *opaque, hwaddr addr, unsigned int size)
 {
-    Esp32TWAIState *d = ESP32_TWAI(opaque);
-    CanSJA1000State *s = &d->sja_state;
+    Esp32TWAIState *s = ESP32_TWAI(opaque);
     const uint64_t reg_addr = addr >> 2;
 
-    if ((s->clock & 0x80) && reg_addr == SJA_RMC) {
+    if ((s->sja_state.clock & 0x80) && reg_addr == SJA_RMC) {
         /* PeliCAN Mode */
-        return s->rxmsg_cnt;
+        return s->sja_state.rxmsg_cnt;
     }
 
-    return can_sja_mem_read(s, reg_addr, size);
+    return can_sja_mem_read(&s->sja_state, reg_addr, size);
 }
 
 /* Memory-mapped I/O write handler for the TWAI peripheral.
@@ -100,58 +97,70 @@ static uint64_t esp32_twai_read(void *opaque, hwaddr addr, unsigned int size)
 static void esp32_twai_write(void *opaque, hwaddr addr, uint64_t value,
                             unsigned int size)
 {
-    Esp32TWAIState *d = ESP32_TWAI(opaque);
-    CanSJA1000State *s = &d->sja_state;
-
-    can_sja_mem_write(s, addr>>2, value, size);    
+    Esp32TWAIState *s = ESP32_TWAI(opaque);
+    can_sja_mem_write(&s->sja_state, addr >> 2, value, size);    
 }
-
-static const MemoryRegionOps esp32_twai_ops = {
-    .read = esp32_twai_read,
-    .write = esp32_twai_write,
-    .endianness = DEVICE_LITTLE_ENDIAN,
-};
 
 static void esp32_twai_init(Object * obj)
 {
     Esp32TWAIState *s = ESP32_TWAI(obj);
     SysBusDevice *sbd = SYS_BUS_DEVICE(obj);
+    Esp32TWAIClass *twai_class = ESP32_TWAI_GET_CLASS(obj);
 
-    memory_region_init_io(&s->iomem, obj, &esp32_twai_ops, s, TYPE_ESP32_TWAI, ESP32_TWAI_MEM_SIZE);
+    /* Set up MMIO operations */
+    s->twai_ops = (MemoryRegionOps) {
+        .read = twai_class->twai_read,
+        .write = twai_class->twai_write,
+        .endianness = DEVICE_LITTLE_ENDIAN,
+    };
+
+    /* Initialize MMIO region */
+    memory_region_init_io(&s->iomem, obj, &s->twai_ops, s,
+                         TYPE_ESP32_TWAI, ESP32_TWAI_MEM_SIZE);
     sysbus_init_mmio(sbd, &s->iomem);
     sysbus_init_irq(sbd, &s->irq);
 
+    /* Add CAN bus link property */
     object_property_add_link(obj, "canbus", TYPE_CAN_BUS,
-                             (Object **)&s->canbus,
-                             qdev_prop_allow_set_link_before_realize,
-                             0);    
+                           (Object **)&s->canbus,
+                           qdev_prop_allow_set_link_before_realize,
+                           0);    
 }
 
-static void esp32_twai_realize(DeviceState *d, Error **errp)
+/* Device realization */
+static void esp32_twai_realize(DeviceState *dev, Error **errp)
 {
-    Esp32TWAIState *s = ESP32_TWAI(d);
+    Esp32TWAIState *s = ESP32_TWAI(dev);
 
-    /* Allocate interrupt proxy handler */
+    /* Set up interrupt handling */
     s->irq_handler = qemu_allocate_irq(esp32_twai_irq_handler, s, 0);
-
-    /* Initialize SJA1000 with our interrupt handler */
+    
+    /* Initialize SJA1000 controller */
     can_sja_init(&s->sja_state, s->irq_handler);
 
+    /* Connect to CAN bus */
     if (can_sja_connect_to_bus(&s->sja_state, s->canbus) < 0) {
-        error_setg(errp, "TWAI can_sja_connect_to_bus failed");
+        error_setg(errp, "Failed to connect TWAI to CAN bus");
         return;
     }
 }
 
-static void esp32_twai_class_init(ObjectClass * klass, void * data)
+/* Class initialization */
+static void esp32_twai_class_init(ObjectClass *klass, void *data)
 {
     DeviceClass *dc = DEVICE_CLASS(klass);
     ResettableClass *rc = RESETTABLE_CLASS(klass);
+    Esp32TWAIClass *twai_class = ESP32_TWAI_CLASS(klass);
     
+    /* Set up virtual methods */
+    twai_class->twai_read = esp32_twai_read;
+    twai_class->twai_write = esp32_twai_write;
+    
+    /* Set up device class methods */
     rc->phases.hold = esp32_twai_reset;
     dc->realize = esp32_twai_realize;
-    device_class_set_props(dc, esp32_twai_properties);
     dc->vmsd = &vmstate_esp32_twai;
+    device_class_set_props(dc, esp32_twai_properties);
 }
 
 static const TypeInfo esp32_twai_type_info = {
@@ -159,6 +168,7 @@ static const TypeInfo esp32_twai_type_info = {
     .parent = TYPE_SYS_BUS_DEVICE,
     .instance_size = sizeof(Esp32TWAIState),
     .instance_init = esp32_twai_init,
+    .class_size = sizeof(Esp32TWAIClass),
     .class_init = esp32_twai_class_init,
 };
 

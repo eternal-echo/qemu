@@ -7,6 +7,7 @@
  * it under the terms of the GNU General Public License version 2 or
  * (at your option) any later version.
  */
+
 #ifndef ESP32_TWAI_H
 #define ESP32_TWAI_H
 
@@ -17,10 +18,12 @@
 
 #define TYPE_ESP32_TWAI "esp32.twai"
 #define ESP32_TWAI(obj) OBJECT_CHECK(Esp32TWAIState, (obj), TYPE_ESP32_TWAI)
+#define ESP32_TWAI_CLASS(klass) OBJECT_CLASS_CHECK(Esp32TWAIClass, klass, TYPE_ESP32_TWAI)
+#define ESP32_TWAI_GET_CLASS(obj) OBJECT_GET_CLASS(Esp32TWAIClass, obj, TYPE_ESP32_TWAI)
 
 #define ESP32_TWAI_MEM_SIZE CAN_SJA_MEM_SIZE
 
-/* ESP32 TWAI interrupt control definitions */
+/* ESP32 TWAI interrupt definitions */
 #define ESP32_TWAI_INTR_TI    (0x1 << 1)    /* Transmit Interrupt */
 #define ESP32_TWAI_INTR_RI    (0x1 << 0)    /* Receive Interrupt */
 #define ESP32_TWAI_INTR_EI    (0x1 << 2)    /* Error Interrupt */
@@ -28,12 +31,21 @@
 typedef struct Esp32TWAIState {
     SysBusDevice parent_obj;
     MemoryRegion iomem;
-    CanSJA1000State sja_state;
-    qemu_irq        irq;            /* System bus IRQ */
-    qemu_irq        irq_handler;    /* Interrupt proxy handler */
-    uint32_t        interrupt_enable;   /* Interrupt enable control */
-    uint32_t        interrupt_state;    /* Current interrupt state */
-    CanBusState     *canbus;
+    MemoryRegionOps twai_ops;     /* TWAI MMIO operations */
+    CanSJA1000State sja_state;    /* Underlying SJA1000 controller state */
+    qemu_irq irq;                 /* System bus IRQ */
+    qemu_irq irq_handler;         /* Interrupt proxy handler */
+    uint32_t interrupt_enable;    /* Interrupt enable mask */
+    uint32_t interrupt_state;     /* Current interrupt state */
+    CanBusState *canbus;         /* CAN bus interface */
 } Esp32TWAIState;
 
-#endif
+typedef struct Esp32TWAIClass {
+    SysBusDeviceClass parent_class;
+    
+    /* Virtual methods for MMIO operations */
+    void (*twai_write)(void *opaque, hwaddr addr, uint64_t value, unsigned int size);
+    uint64_t (*twai_read)(void *opaque, hwaddr addr, unsigned int size);
+} Esp32TWAIClass;
+
+#endif /* ESP32_TWAI_H */
