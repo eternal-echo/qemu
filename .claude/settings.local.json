@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ninja:*)",
+      "Bash(build/qemu-system-xtensa:*)",
+      "Bash(ls:*)",
+      "Bash(timeout:*)",
+      "Bash(-machine esp32 )",
+      "Bash(-object can-bus,id=canbus0 )",
+      "Bash(-object can-host-socketcan,id=canhost0,if=can0,canbus=canbus0 )",
+      "Bash(-global driver=esp32.twai,property=canbus,value=canbus0 )",
+      "Bash(-d guest_errors,unimp )",
+      "Bash(-D qemu.log)",
+      "Bash(build/qemu-system-riscv32:*)",
+      "Bash(-machine esp32c3 )",
+      "Bash(-object can-bus,id=canbus0 )",
+      "Bash(-object can-host-socketcan,id=canhost0,if=can0,canbus=canbus0 )",
+      "Bash(-global driver=esp32c3.twai,property=canbus,value=canbus0 )",
+      "Bash(-d guest_errors,unimp )",
+      "Bash(grep:*)"
+    ],
+    "deny": []
+  }
+}

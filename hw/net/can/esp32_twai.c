@@ -83,12 +83,19 @@ static uint64_t esp32_twai_read(void *opaque, hwaddr addr, unsigned int size)
     Esp32TWAIState *s = ESP32_TWAI(opaque);
     const uint64_t reg_addr = addr >> 2;
 
-    if ((s->sja_state.clock & 0x80) && reg_addr == SJA_RMC) {
-        /* PeliCAN Mode */
-        return s->sja_state.rxmsg_cnt;
-    }
+    // if ((s->sja_state.clock & 0x80) && reg_addr == SJA_RMC) {
+    //     /* PeliCAN Mode */
+    //     return s->sja_state.rxmsg_cnt;
+    // }
 
-    return can_sja_mem_read(&s->sja_state, reg_addr, size);
+    /* ESP32 TWAI register mapping correction for BasicCAN mode */
+    uint64_t sja_addr = reg_addr;
+    // if (!(s->sja_state.clock & 0x80) && reg_addr >= 0x10 && reg_addr <= 0x1C) {
+    //     /* BasicCAN mode: remap TX buffer addresses */
+    //     sja_addr = reg_addr - 0x10 + 0x0A;  /* 0x10->0x0A, 0x11->0x0B, ... */
+    // }
+
+    return can_sja_mem_read(&s->sja_state, sja_addr, size);
 }
 
 /* Memory-mapped I/O write handler for the TWAI peripheral.
@@ -98,7 +105,20 @@ static void esp32_twai_write(void *opaque, hwaddr addr, uint64_t value,
                             unsigned int size)
 {
     Esp32TWAIState *s = ESP32_TWAI(opaque);
-    can_sja_mem_write(&s->sja_state, addr >> 2, value, size);    
+    const uint64_t reg_addr = addr >> 2;
+    uint64_t sja_addr = reg_addr;
+
+    if (sja_addr == SJA_CDR) {
+        value |= 0x80;
+        qemu_log("[ESP32-TWAI] Intercepting CDR write. Forcing PeliCAN mode (value=0x%02" PRIx64 ").\n", value);
+    }
+
+    qemu_log_mask(LOG_GUEST_ERROR,
+                  "ESP32_TWAI: WRITE addr=0x%02" HWADDR_PRIx " reg_addr=0x%02" PRIx64
+                  " sja_addr=0x%02" PRIx64 " value=0x%08" PRIx64 " size=%u\n",
+                  addr, reg_addr, sja_addr, value, size);
+
+    can_sja_mem_write(&s->sja_state, sja_addr, value, size);
 }
 
 static void esp32_twai_init(Object * obj)

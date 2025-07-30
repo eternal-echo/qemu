@@ -35,11 +35,11 @@
 #include "can_sja1000.h"
 
 #ifndef DEBUG_FILTER
-#define DEBUG_FILTER 0
+#define DEBUG_FILTER 1
 #endif /*DEBUG_FILTER*/
 
 #ifndef DEBUG_CAN
-#define DEBUG_CAN 0
+#define DEBUG_CAN 1
 #endif /*DEBUG_CAN*/
 
 #define DPRINTF(fmt, ...) \
@@ -475,6 +475,14 @@ void can_sja_mem_write(CanSJA1000State *s, hwaddr addr, uint64_t val,
 
         case SJA_CMR: /* Command register. */
             if (0x01 & val) { /* Send transmission request. */
+                qemu_log("[cansja]: About to send, val=0x%02lx\n", val);
+                if (DEBUG_FILTER) {
+                    qemu_log("[cansja]: TX buffer before conversion: ");
+                    for (int i = 0; i < 13; i++) {
+                        qemu_log("%02X ", s->tx_buff[i]);
+                    }
+                    qemu_log("\n");
+                }
                 buff2frame_pel(s->tx_buff, &frame);
                 if (DEBUG_FILTER) {
                     can_display_msg("[cansja]: Tx request " , &frame);
@@ -556,6 +564,11 @@ void can_sja_mem_write(CanSJA1000State *s, hwaddr addr, uint64_t val,
             break;
         case SJA_CDR:
             s->clock = val;
+            if (val & 0x80) {
+                qemu_log("[SJA1000-MODE] CDR write: Entering PeliCAN mode.\n");
+            } else {
+                qemu_log("[SJA1000-MODE] CDR write: Entering BasicCAN mode.\n");
+            }
             break;
         }
     } else { /* Basic Mode */
@@ -579,6 +592,14 @@ void can_sja_mem_write(CanSJA1000State *s, hwaddr addr, uint64_t val,
             break;
         case SJA_BCAN_CMR: /* Command register, addr 1 */
             if (0x01 & val) { /* Send transmission request. */
+                qemu_log("[cansja]: BasicCAN About to send, val=0x%02lx\n", val);
+                if (DEBUG_FILTER) {
+                    qemu_log("[cansja]: BasicCAN TX buffer before conversion: ");
+                    for (int i = 0; i < 13; i++) {
+                        qemu_log("%02X ", s->tx_buff[i]);
+                    }
+                    qemu_log("\n");
+                }
                 buff2frame_bas(s->tx_buff, &frame);
                 if (DEBUG_FILTER) {
                     can_display_msg("[cansja]: Tx request " , &frame);
@@ -650,6 +671,11 @@ void can_sja_mem_write(CanSJA1000State *s, hwaddr addr, uint64_t val,
             break;
         case SJA_CDR:
             s->clock = val;
+            if (val & 0x80) {
+                qemu_log("[SJA1000-MODE] CDR write: Entering PeliCAN mode.\n");
+            } else {
+                qemu_log("[SJA1000-MODE] CDR write: Entering BasicCAN mode.\n");
+            }
             break;
         }
     }
