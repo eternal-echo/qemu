@@ -61,8 +61,6 @@ static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
 {
     Esp32TWAIState *s = (Esp32TWAIState *)opaque;
 
-    qemu_log("[ESP32-TWAI-IRQ] Handler called: irq_num=%d level=%d interrupt_enable=0x%x\n", 
-             irq_num, level, s->interrupt_enable);
 
     s->interrupt_state = level;
     
@@ -71,14 +69,10 @@ static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
      */
     if (s->interrupt_enable != 0) {
         if (level) {
-            qemu_log("[ESP32-TWAI-IRQ] Raising interrupt to CPU\n");
             qemu_irq_raise(s->irq);
         } else {
-            qemu_log("[ESP32-TWAI-IRQ] Lowering interrupt to CPU\n");
             qemu_irq_lower(s->irq);
         }
-    } else {
-        qemu_log("[ESP32-TWAI-IRQ] Interrupt blocked - interrupt_enable=0\n");
     }
 }
 
@@ -106,13 +100,8 @@ static void esp32_twai_write(void *opaque, hwaddr addr, uint64_t value,
 
     if (sja_addr == SJA_CDR) {
         value |= 0x80;
-        qemu_log("[ESP32-TWAI] Intercepting CDR write. Forcing PeliCAN mode (value=0x%02" PRIx64 ").\n", value);
     }
 
-    qemu_log_mask(LOG_GUEST_ERROR,
-                  "ESP32_TWAI: WRITE addr=0x%02" HWADDR_PRIx " sja_addr=0x%02" PRIx64 
-                  " value=0x%08" PRIx64 " size=%u\n",
-                  addr, sja_addr, value, size);
 
     can_sja_mem_write(&s->sja_state, sja_addr, value, size);
 }
