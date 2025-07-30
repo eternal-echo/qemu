@@ -102,4 +102,5 @@ static void esp32s3_twai_register_types(void)
     type_register_static(&esp32s3_twai_type_info);
 }
 
+
 type_init(esp32s3_twai_register_types)

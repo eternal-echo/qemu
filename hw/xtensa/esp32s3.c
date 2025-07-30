@@ -62,6 +62,7 @@
 #include "hw/gpio/esp32s3_gpio.h"
 #include "hw/misc/esp32s3_xts_aes.h"
 #include "hw/misc/esp32s3_pms.h"
+#include "hw/net/can/esp32s3_twai.h"
 
 #include "cpu_esp32s3.h"
 
@@ -144,6 +145,7 @@ typedef struct Esp32s3SocState {
     ESP32S3XtsAesState xts_aes;
     ESP32S3TimgState timg[2];
     ESP32S3SysTimerState systimer;
+    Esp32S3TWAIState twai;
 
     ESP32C3UsbJtagState jtag;
     ESPRgbState rgb;
@@ -512,6 +514,8 @@ static void esp32s3_soc_init(Object *obj)
     qdev_init_gpio_in_named(DEVICE(s), esp32s3_cpu_reset,  ESP32S3_RTC_CPU_RESET_GPIO, ESP32S3_CPU_COUNT);
     qdev_init_gpio_in_named(DEVICE(s), esp32s3_cpu_stall,  ESP32S3_RTC_CPU_STALL_GPIO, ESP32S3_CPU_COUNT);
     qdev_init_gpio_in_named(DEVICE(s), esp32s3_clk_update, ESP32S3_RTC_CLK_UPDATE_GPIO, 1);
+
+    object_initialize_child(obj, "twai", &s->twai, TYPE_ESP32S3_TWAI);
 }
 
 static Property esp32s3_soc_properties[] = {
@@ -828,6 +832,15 @@ static void esp32s3_machine_init(MachineState *machine)
         MemoryRegion *mr = sysbus_mmio_get_region(SYS_BUS_DEVICE(&ss->rgb), 0);
         memory_region_add_subregion_overlap(sys_mem, DR_REG_FRAMEBUF_BASE, mr, 0);
         memory_region_add_subregion_overlap(sys_mem, esp32s3_memmap[ESP32S3_MEMREGION_FRAMEBUF].base, &ss->rgb.vram, 0);
+    }
+
+    /* TWAI realization */
+    {
+        sysbus_realize(SYS_BUS_DEVICE(&ss->twai), &error_fatal);
+        MemoryRegion *mr = sysbus_mmio_get_region(SYS_BUS_DEVICE(&ss->twai), 0);
+        memory_region_add_subregion_overlap(sys_mem, DR_REG_TWAI_BASE, mr, 0);
+        sysbus_connect_irq(SYS_BUS_DEVICE(&ss->twai), 0,
+                           qdev_get_gpio_in(intmatrix_dev, ETS_TWAI_INTR_SOURCE));
     }
 
     esp32s3_soc_add_unimp_device(sys_mem, "esp32s3.rmt", DR_REG_RMT_BASE, 0x1000);
