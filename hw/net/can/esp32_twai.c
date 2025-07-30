@@ -61,6 +61,9 @@ static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
 {
     Esp32TWAIState *s = (Esp32TWAIState *)opaque;
 
+    qemu_log("[ESP32-TWAI-IRQ] Handler called: irq_num=%d level=%d interrupt_enable=0x%x\n", 
+             irq_num, level, s->interrupt_enable);
+
     s->interrupt_state = level;
     
     /* Only forward interrupts to the CPU if they are enabled in the mask.
@@ -68,10 +71,14 @@ static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
      */
     if (s->interrupt_enable != 0) {
         if (level) {
+            qemu_log("[ESP32-TWAI-IRQ] Raising interrupt to CPU\n");
             qemu_irq_raise(s->irq);
         } else {
+            qemu_log("[ESP32-TWAI-IRQ] Lowering interrupt to CPU\n");
             qemu_irq_lower(s->irq);
         }
+    } else {
+        qemu_log("[ESP32-TWAI-IRQ] Interrupt blocked - interrupt_enable=0\n");
     }
 }
 
@@ -81,19 +88,8 @@ static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
 static uint64_t esp32_twai_read(void *opaque, hwaddr addr, unsigned int size)
 {
     Esp32TWAIState *s = ESP32_TWAI(opaque);
-    const uint64_t reg_addr = addr >> 2;
-
-    // if ((s->sja_state.clock & 0x80) && reg_addr == SJA_RMC) {
-    //     /* PeliCAN Mode */
-    //     return s->sja_state.rxmsg_cnt;
-    // }
-
-    /* ESP32 TWAI register mapping correction for BasicCAN mode */
-    uint64_t sja_addr = reg_addr;
-    // if (!(s->sja_state.clock & 0x80) && reg_addr >= 0x10 && reg_addr <= 0x1C) {
-    //     /* BasicCAN mode: remap TX buffer addresses */
-    //     sja_addr = reg_addr - 0x10 + 0x0A;  /* 0x10->0x0A, 0x11->0x0B, ... */
-    // }
+    /* ESP32 TWAI寄存器按4字节对齐，需要除4映射到SJA1000寄存器地址 */
+    const uint64_t sja_addr = addr >> 2;
 
     return can_sja_mem_read(&s->sja_state, sja_addr, size);
 }
@@ -105,8 +101,8 @@ static void esp32_twai_write(void *opaque, hwaddr addr, uint64_t value,
                             unsigned int size)
 {
     Esp32TWAIState *s = ESP32_TWAI(opaque);
-    const uint64_t reg_addr = addr >> 2;
-    uint64_t sja_addr = reg_addr;
+    /* ESP32 TWAI寄存器按4字节对齐，需要除4映射到SJA1000寄存器地址 */
+    const uint64_t sja_addr = addr >> 2;
 
     if (sja_addr == SJA_CDR) {
         value |= 0x80;
@@ -114,9 +110,9 @@ static void esp32_twai_write(void *opaque, hwaddr addr, uint64_t value,
     }
 
     qemu_log_mask(LOG_GUEST_ERROR,
-                  "ESP32_TWAI: WRITE addr=0x%02" HWADDR_PRIx " reg_addr=0x%02" PRIx64
-                  " sja_addr=0x%02" PRIx64 " value=0x%08" PRIx64 " size=%u\n",
-                  addr, reg_addr, sja_addr, value, size);
+                  "ESP32_TWAI: WRITE addr=0x%02" HWADDR_PRIx " sja_addr=0x%02" PRIx64 
+                  " value=0x%08" PRIx64 " size=%u\n",
+                  addr, sja_addr, value, size);
 
     can_sja_mem_write(&s->sja_state, sja_addr, value, size);
 }

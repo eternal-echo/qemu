@@ -403,9 +403,15 @@ static int frame2buff_bas(const qemu_can_frame *frame, uint8_t *buff)
 
 static void can_sja_update_pel_irq(CanSJA1000State *s)
 {
-    if (s->interrupt_en & s->interrupt_pel) {
+    int should_irq = s->interrupt_en & s->interrupt_pel;
+    qemu_log("[SJA1000-PEL-IRQ] interrupt_en=0x%02x interrupt_pel=0x%02x should_irq=%d\n", 
+             s->interrupt_en, s->interrupt_pel, should_irq ? 1 : 0);
+    
+    if (should_irq) {
+        qemu_log("[SJA1000-PEL-IRQ] Raising interrupt\n");
         qemu_irq_raise(s->irq);
     } else {
+        qemu_log("[SJA1000-PEL-IRQ] Lowering interrupt\n");
         qemu_irq_lower(s->irq);
     }
 }
@@ -433,6 +439,9 @@ void can_sja_mem_write(CanSJA1000State *s, hwaddr addr, uint64_t val,
     if (addr > CAN_SJA_MEM_SIZE) {
         return;
     }
+
+    qemu_log("[SJA1000-WRITE] addr=0x%02x value=0x%02" PRIx64 " mode=%s\n", 
+             (unsigned int)addr, val, (s->clock & 0x80) ? "PeliCAN" : "BasicCAN");
 
     if (s->clock & 0x80) { /* PeliCAN Mode */
         switch (addr) {
@@ -548,7 +557,9 @@ void can_sja_mem_write(CanSJA1000State *s, hwaddr addr, uint64_t val,
         case SJA_IR: /* Interrupt register */
             break; /* Do nothing */
         case SJA_IER: /* Interrupt enable register */
+            qemu_log("[SJA1000-IER-WRITE] Setting interrupt_en from 0x%02x to 0x%02" PRIx64 "\n", s->interrupt_en, val);
             s->interrupt_en = val;
+            qemu_log("[SJA1000-IER-WRITE] interrupt_en now = 0x%02x\n", s->interrupt_en);
             break;
         case 16: /* RX frame information addr16-28. */
             s->status_pel |= (1 << 5); /* Set transmit status. */
@@ -712,6 +723,7 @@ uint64_t can_sja_mem_read(CanSJA1000State *s, hwaddr addr, unsigned size)
             break;
         case SJA_IER: /* Interrupt enable register, addr 4 */
             temp = s->interrupt_en;
+            qemu_log("[SJA1000-IER-READ] interrupt_en = 0x%02x\n", s->interrupt_en);
             break;
         case 5: /* Reserved */
         case 6: /* Bus timing 0, hardware related, not support now. */

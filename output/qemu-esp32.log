@@ -1,0 +1,1922 @@
+Adding SPI flash device
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0088)
+esp32.iomux: unimplemented device write (size 4, offset 0x0088, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0088)
+esp32.iomux: unimplemented device write (size 4, offset 0x0088, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00000100)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00000400)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00001000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0064)
+esp32.iomux: unimplemented device write (size 4, offset 0x0064, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0064)
+esp32.iomux: unimplemented device write (size 4, offset 0x0064, value 0x00000100)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0064)
+esp32.iomux: unimplemented device write (size 4, offset 0x0064, value 0x00001000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0068)
+esp32.iomux: unimplemented device write (size 4, offset 0x0068, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0068)
+esp32.iomux: unimplemented device write (size 4, offset 0x0068, value 0x00000100)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0068)
+esp32.iomux: unimplemented device write (size 4, offset 0x0068, value 0x00001000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0054)
+esp32.iomux: unimplemented device write (size 4, offset 0x0054, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0054)
+esp32.iomux: unimplemented device write (size 4, offset 0x0054, value 0x00000100)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0058)
+esp32.iomux: unimplemented device write (size 4, offset 0x0058, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0058)
+esp32.iomux: unimplemented device write (size 4, offset 0x0058, value 0x00000100)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x074)
+esp32.rtcio: unimplemented device write (size 4, offset 0x074, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x005c)
+esp32.iomux: unimplemented device write (size 4, offset 0x005c, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x005c)
+esp32.iomux: unimplemented device write (size 4, offset 0x005c, value 0x00000100)
+esp32.iomux: unimplemented device read  (size 4, offset 0x005c)
+esp32.iomux: unimplemented device write (size 4, offset 0x005c, value 0x00001000)
+M25P80: Read id (command 0x90/0xAB) is not supported by device
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x044)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x044, value 0x0003ff00)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x044)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x044, value 0x00000000)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x044)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x044, value 0x00000000)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x000)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01180066)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01200166)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x019a0466)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01000a66)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01000c66)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01430b66)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01840966)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01000266)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01200366)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01c60566)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x008, value 0x0000004f)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x004, value 0x00000027)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x008, value 0x0000004f)
+M25P80: Unknown cmd 5a
+esp32.iomux: unimplemented device read  (size 4, offset 0x0064)
+esp32.iomux: unimplemented device write (size 4, offset 0x0064, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0068)
+esp32.iomux: unimplemented device write (size 4, offset 0x0068, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0054)
+esp32.iomux: unimplemented device write (size 4, offset 0x0054, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0058)
+esp32.iomux: unimplemented device write (size 4, offset 0x0058, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x005c)
+esp32.iomux: unimplemented device write (size 4, offset 0x005c, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00001000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00000800)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x02c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x02c, value 0x00000010)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x02c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x02c, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x02c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x02c, value 0x00000000)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x02c, value 0xadadadad)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x030, value 0xadadadad)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x034, value 0xadadadad)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x038, value 0xadadadad)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x00c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x00c, value 0x000c0000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x000)
+esp32.rtcio: unimplemented device write (size 4, offset 0x000, value 0x08000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x090)
+esp32.rtcio: unimplemented device write (size 4, offset 0x090, value 0x10000000)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x010, value 0x00000004)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x010, value 0x00000200)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x018)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x018, value 0x00000008)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x018)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x018, value 0x000a0000)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x010, value 0x00000000)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x010, value 0x00000020)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x010, value 0x00000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0b0)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0b0, value 0x00000500)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x010, value 0x04000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000020)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000010)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000008)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x008)
+esp32.i2s0: unimplemented device write (size 4, offset 0x008, value 0x00000020)
+Invalid read at addr 0x10200C, size 4, region 'er', reason: rejected
+Invalid read at addr 0x10200C, size 4, region 'er', reason: rejected
+esp32.i2s0: unimplemented device read  (size 4, offset 0x008)
+esp32.i2s0: unimplemented device write (size 4, offset 0x008, value 0x00000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x008)
+esp32.i2s0: unimplemented device write (size 4, offset 0x008, value 0x00000002)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x008)
+esp32.i2s0: unimplemented device write (size 4, offset 0x008, value 0x00000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000000)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0a8)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0a8, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x000)
+esp32.rtcio: unimplemented device write (size 4, offset 0x000, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x090)
+esp32.rtcio: unimplemented device write (size 4, offset 0x090, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x02c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x02c, value 0x00000000)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x010, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x00c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x00c, value 0x00000000)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x018)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x018, value 0x00080000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x00c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x00c, value 0x000c0000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x08c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x08c, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x08c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x08c, value 0x00000000)
+esp32.rtcio: unimplemented device read  (size 4, offset 0x08c)
+esp32.rtcio: unimplemented device write (size 4, offset 0x08c, value 0x00000000)
+esp32.apbctrl: unimplemented device read  (size 4, offset 0x000)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x000, value 0x00000000)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x004, value 0x00000027)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01180066)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01200166)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x019a0466)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01000a66)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01000c66)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01430b66)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01840966)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01000266)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01200366)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.analog-apb: unimplemented device write (size 4, offset 0x010, value 0x01c60566)
+esp32.analog-apb: unimplemented device read  (size 4, offset 0x010)
+esp32.apbctrl: unimplemented device write (size 4, offset 0x008, value 0x0000004f)
+esp32.i2s0: unimplemented device read  (size 4, offset 0x0ac)
+esp32.i2s0: unimplemented device write (size 4, offset 0x0ac, value 0x00200000)
+esp32.i2s1: unimplemented device read  (size 4, offset 0x0ac)
+esp32.i2s1: unimplemented device write (size 4, offset 0x0ac, value 0x00200000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0064)
+esp32.iomux: unimplemented device write (size 4, offset 0x0064, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0068)
+esp32.iomux: unimplemented device write (size 4, offset 0x0068, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0054)
+esp32.iomux: unimplemented device write (size 4, offset 0x0054, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0058)
+esp32.iomux: unimplemented device write (size 4, offset 0x0058, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x005c)
+esp32.iomux: unimplemented device write (size 4, offset 0x005c, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00001000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0060)
+esp32.iomux: unimplemented device write (size 4, offset 0x0060, value 0x00000800)
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x01
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000001 size=4
+[cansja]: write 0x01 addr 0x00
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x01
+[cansja]: read addr 0x1f ...
+[cansja]: read addr 0x1f, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x7c reg_addr=0x1f sja_addr=0x1f value=0x00000080 size=4
+[cansja]: write 0x80 addr 0x1f
+[SJA1000-MODE] CDR write: Entering PeliCAN mode.
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x01
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x00
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x03
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x00
+[cansja]: read addr 0x10 ...
+[cansja]: read addr 0x10, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x10
+[cansja]: read addr 0x14 ...
+[cansja]: read addr 0x14, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x14
+[cansja]: read addr 0x11 ...
+[cansja]: read addr 0x11, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x11
+[cansja]: read addr 0x15 ...
+[cansja]: read addr 0x15, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x15
+[cansja]: read addr 0x12 ...
+[cansja]: read addr 0x12, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x12
+[cansja]: read addr 0x16 ...
+[cansja]: read addr 0x16, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x16
+[cansja]: read addr 0x13 ...
+[cansja]: read addr 0x13, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+[cansja]: read addr 0x17 ...
+[cansja]: read addr 0x17, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x17
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x03
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x0000000b size=4
+[cansja]: write 0x0b addr 0x00
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x3c reg_addr=0x0f sja_addr=0x0f value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0f
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x38 reg_addr=0x0e sja_addr=0x0e value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0e
+[cansja]: read addr 0x0d ...
+[cansja]: read addr 0x0d, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x34 reg_addr=0x0d sja_addr=0x0d value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x0d
+ESP32_TWAI: WRITE addr=0x10 reg_addr=0x04 sja_addr=0x04 value=0x000000e7 size=4
+[cansja]: write 0xe7 addr 0x04
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x00
+[cansja]: read addr 0x06 ...
+[cansja]: read addr 0x06, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x18 reg_addr=0x06 sja_addr=0x06 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x06
+[cansja]: read addr 0x06 ...
+[cansja]: read addr 0x06, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x18 reg_addr=0x06 sja_addr=0x06 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x06
+[cansja]: read addr 0x07 ...
+[cansja]: read addr 0x07, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x1c reg_addr=0x07 sja_addr=0x07 value=0x0000000f size=4
+[cansja]: write 0x0f addr 0x07
+[cansja]: read addr 0x07 ...
+[cansja]: read addr 0x07, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x1c reg_addr=0x07 sja_addr=0x07 value=0x00000020 size=4
+[cansja]: write 0x20 addr 0x07
+[cansja]: read addr 0x07 ...
+[cansja]: read addr 0x07, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x1c reg_addr=0x07 sja_addr=0x07 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x07
+[cansja]: read addr 0x1f ...
+[cansja]: read addr 0x1f, 4 bytes, content 0x80
+ESP32_TWAI: WRITE addr=0x7c reg_addr=0x1f sja_addr=0x1f value=0x00000080 size=4
+[cansja]: write 0x80 addr 0x1f
+[SJA1000-MODE] CDR write: Entering PeliCAN mode.
+[cansja]: read addr 0x1f ...
+[cansja]: read addr 0x1f, 4 bytes, content 0x80
+ESP32_TWAI: WRITE addr=0x7c reg_addr=0x1f sja_addr=0x1f value=0x00000083 size=4
+[cansja]: write 0x83 addr 0x1f
+[SJA1000-MODE] CDR write: Entering PeliCAN mode.
+esp32.iomux: unimplemented device read  (size 4, offset 0x006c)
+esp32.iomux: unimplemented device write (size 4, offset 0x006c, value 0x00000000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x006c)
+esp32.iomux: unimplemented device write (size 4, offset 0x006c, value 0x00000100)
+esp32.iomux: unimplemented device read  (size 4, offset 0x006c)
+esp32.iomux: unimplemented device write (size 4, offset 0x006c, value 0x00000200)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0048)
+esp32.iomux: unimplemented device write (size 4, offset 0x0048, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0044)
+esp32.iomux: unimplemented device write (size 4, offset 0x0044, value 0x00002000)
+esp32.iomux: unimplemented device read  (size 4, offset 0x0044)
+esp32.iomux: unimplemented device write (size 4, offset 0x0044, value 0x00002000)
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x0b
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000009 size=4
+[cansja]: write 0x09 addr 0x00
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x09
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000009 size=4
+[cansja]: write 0x09 addr 0x00
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x3c reg_addr=0x0f sja_addr=0x0f value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0f
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+ESP32_TWAI: WRITE addr=0x38 reg_addr=0x0e sja_addr=0x0e value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0e
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x00
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x09
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000008 size=4
+[cansja]: write 0x08 addr 0x00
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x3c
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 00 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 00 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x1c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000001 size=4
+[cansja]: write 0x01 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 01 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 01 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000002 size=4
+[cansja]: write 0x02 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 02 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 02 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 03 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 03 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000004 size=4
+[cansja]: write 0x04 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 04 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 04 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000005 size=4
+[cansja]: write 0x05 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 05 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 05 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000006 size=4
+[cansja]: write 0x06 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 06 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 06 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000007 size=4
+[cansja]: write 0x07 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 07 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 07 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000008 size=4
+[cansja]: write 0x08 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 08 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 08 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000009 size=4
+[cansja]: write 0x09 addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 09 AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 09 AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x0000000a size=4
+[cansja]: write 0x0a addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 0A AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 0A AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x0000000b size=4
+[cansja]: write 0x0b addr 0x16
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: About to send, val=0x03
+[cansja]: TX buffer before conversion: 28 24 60 00 00 00 0B AA BB CC DD 00 00 
+[cansja]: Tx request 123 [8] SFF DAT 00 00 00 0B AA BB CC DD
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x02
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0x00
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0x00
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: filter rejects message

@@ -1,0 +1,759 @@
+Adding SPI flash device
+M25P80: Read id (command 0x90/0xAB) is not supported by device
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+M25P80: Unknown cmd 5a
+M25P80: Unknown cmd 7a
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - pmpcfg + 1 locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpaddr write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ignoring pmpcfg write - locked
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x01
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0x1
+ESP32C3_TWAI: WRITE addr=0x0 reg_addr=0x0 value=0x1 size=4
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000001 size=4
+[cansja]: write 0x01 addr 0x00
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x01
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0x1
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x01
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0x1
+ESP32C3_TWAI: WRITE addr=0x0 reg_addr=0x0 value=0x3 size=4
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x00
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x03
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0x3
+ESP32C3_TWAI: WRITE addr=0x0 reg_addr=0x0 value=0x3 size=4
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x00
+ESP32C3_TWAI: READ addr=0x40 reg_addr=0x10 size=4
+[cansja]: read addr 0x10 ...
+[cansja]: read addr 0x10, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x40 reg_addr=0x10 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x40 reg_addr=0x10 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x10
+ESP32C3_TWAI: READ addr=0x50 reg_addr=0x14 size=4
+[cansja]: read addr 0x14 ...
+[cansja]: read addr 0x14, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0x50 reg_addr=0x14 size=4 result=0x0
+ESP32C3_TWAI: WRITE addr=0x50 reg_addr=0x14 value=0xff size=4
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x14
+ESP32C3_TWAI: READ addr=0x44 reg_addr=0x11 size=4
+[cansja]: read addr 0x11 ...
+[cansja]: read addr 0x11, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x44 reg_addr=0x11 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x44 reg_addr=0x11 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x11
+ESP32C3_TWAI: READ addr=0x54 reg_addr=0x15 size=4
+[cansja]: read addr 0x15 ...
+[cansja]: read addr 0x15, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0x54 reg_addr=0x15 size=4 result=0x0
+ESP32C3_TWAI: WRITE addr=0x54 reg_addr=0x15 value=0xff size=4
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x15
+ESP32C3_TWAI: READ addr=0x48 reg_addr=0x12 size=4
+[cansja]: read addr 0x12 ...
+[cansja]: read addr 0x12, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x48 reg_addr=0x12 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x48 reg_addr=0x12 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x12
+ESP32C3_TWAI: READ addr=0x58 reg_addr=0x16 size=4
+[cansja]: read addr 0x16 ...
+[cansja]: read addr 0x16, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0x58 reg_addr=0x16 size=4 result=0x0
+ESP32C3_TWAI: WRITE addr=0x58 reg_addr=0x16 value=0xff size=4
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x16
+ESP32C3_TWAI: READ addr=0x4c reg_addr=0x13 size=4
+[cansja]: read addr 0x13 ...
+[cansja]: read addr 0x13, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x4c reg_addr=0x13 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x4c reg_addr=0x13 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32C3_TWAI: READ addr=0x5c reg_addr=0x17 size=4
+[cansja]: read addr 0x17 ...
+[cansja]: read addr 0x17, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0x5c reg_addr=0x17 size=4 result=0x0
+ESP32C3_TWAI: WRITE addr=0x5c reg_addr=0x17 value=0xff size=4
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x17
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x03
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0x3
+ESP32C3_TWAI: WRITE addr=0x0 reg_addr=0x0 value=0xb size=4
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x0000000b size=4
+[cansja]: write 0x0b addr 0x00
+ESP32C3_TWAI: READ addr=0x3c reg_addr=0xf size=4
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x3c reg_addr=0xf size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x3c reg_addr=0xf value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x3c reg_addr=0x0f sja_addr=0x0f value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0f
+ESP32C3_TWAI: READ addr=0x38 reg_addr=0xe size=4
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x38 reg_addr=0xe size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x38 reg_addr=0xe value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x38 reg_addr=0x0e sja_addr=0x0e value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0e
+ESP32C3_TWAI: READ addr=0x34 reg_addr=0xd size=4
+[cansja]: read addr 0x0d ...
+[cansja]: read addr 0x0d, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x34 reg_addr=0xd size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x34 reg_addr=0xd value=0x60 size=4
+ESP32_TWAI: WRITE addr=0x34 reg_addr=0x0d sja_addr=0x0d value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x0d
+ESP32C3_TWAI: WRITE addr=0x10 reg_addr=0x4 value=0xe7 size=4
+ESP32_TWAI: WRITE addr=0x10 reg_addr=0x04 sja_addr=0x04 value=0x000000e7 size=4
+[cansja]: write 0xe7 addr 0x04
+ESP32C3_TWAI: READ addr=0xc reg_addr=0x3 size=4
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0xc reg_addr=0x3 size=4 result=0x0
+ESP32C3_TWAI: READ addr=0x18 reg_addr=0x6 size=4
+[cansja]: read addr 0x06 ...
+[cansja]: read addr 0x06, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x18 reg_addr=0x6 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x18 reg_addr=0x6 value=0x3 size=4
+ESP32_TWAI: WRITE addr=0x18 reg_addr=0x06 sja_addr=0x06 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x06
+ESP32C3_TWAI: READ addr=0x18 reg_addr=0x6 size=4
+[cansja]: read addr 0x06 ...
+[cansja]: read addr 0x06, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x18 reg_addr=0x6 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x18 reg_addr=0x6 value=0xff size=4
+ESP32_TWAI: WRITE addr=0x18 reg_addr=0x06 sja_addr=0x06 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x06
+ESP32C3_TWAI: READ addr=0x1c reg_addr=0x7 size=4
+[cansja]: read addr 0x07 ...
+[cansja]: read addr 0x07, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x1c reg_addr=0x7 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x1c reg_addr=0x7 value=0xff size=4
+ESP32_TWAI: WRITE addr=0x1c reg_addr=0x07 sja_addr=0x07 value=0x000000ff size=4
+[cansja]: write 0xff addr 0x07
+ESP32C3_TWAI: READ addr=0x1c reg_addr=0x7 size=4
+[cansja]: read addr 0x07 ...
+[cansja]: read addr 0x07, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x1c reg_addr=0x7 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x1c reg_addr=0x7 value=0xaf size=4
+ESP32_TWAI: WRITE addr=0x1c reg_addr=0x07 sja_addr=0x07 value=0x000000af size=4
+[cansja]: write 0xaf addr 0x07
+ESP32C3_TWAI: READ addr=0x1c reg_addr=0x7 size=4
+[cansja]: read addr 0x07 ...
+[cansja]: read addr 0x07, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x1c reg_addr=0x7 size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x1c reg_addr=0x7 value=0x7f size=4
+ESP32_TWAI: WRITE addr=0x1c reg_addr=0x07 sja_addr=0x07 value=0x0000007f size=4
+[cansja]: write 0x7f addr 0x07
+ESP32C3_TWAI: READ addr=0x7c reg_addr=0x1f size=4
+[cansja]: read addr 0x1f ...
+[cansja]: read addr 0x1f, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0x7c reg_addr=0x1f size=4 result=0x0
+ESP32C3_TWAI: WRITE addr=0x7c reg_addr=0x1f value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x7c reg_addr=0x1f sja_addr=0x1f value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1f
+[SJA1000-MODE] CDR write: Entering BasicCAN mode.
+ESP32C3_TWAI: READ addr=0x7c reg_addr=0x1f size=4
+[cansja]: read addr 0x1f ...
+[cansja]: read addr 0x1f, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0x7c reg_addr=0x1f size=4 result=0x0
+ESP32C3_TWAI: WRITE addr=0x7c reg_addr=0x1f value=0x3 size=4
+ESP32_TWAI: WRITE addr=0x7c reg_addr=0x1f sja_addr=0x1f value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x1f
+[SJA1000-MODE] CDR write: Entering BasicCAN mode.
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x0b
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0xb
+ESP32C3_TWAI: WRITE addr=0x0 reg_addr=0x0 value=0x9 size=4
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000009 size=4
+[cansja]: write 0x09 addr 0x00
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x09
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0x9
+ESP32C3_TWAI: WRITE addr=0x0 reg_addr=0x0 value=0x9 size=4
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000009 size=4
+[cansja]: write 0x09 addr 0x00
+ESP32C3_TWAI: READ addr=0x3c reg_addr=0xf size=4
+[cansja]: read addr 0x0f ...
+[cansja]: read addr 0x0f, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x3c reg_addr=0xf size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x3c reg_addr=0xf value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x3c reg_addr=0x0f sja_addr=0x0f value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0f
+ESP32C3_TWAI: READ addr=0x38 reg_addr=0xe size=4
+[cansja]: read addr 0x0e ...
+[cansja]: read addr 0x0e, 4 bytes, content 0xff
+ESP32C3_TWAI: READ addr=0x38 reg_addr=0xe size=4 result=0xff
+ESP32C3_TWAI: WRITE addr=0x38 reg_addr=0xe value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x38 reg_addr=0x0e sja_addr=0x0e value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x0e
+ESP32C3_TWAI: READ addr=0xc reg_addr=0x3 size=4
+[cansja]: read addr 0x03 ...
+[cansja]: read addr 0x03, 4 bytes, content 0x00
+ESP32C3_TWAI: READ addr=0xc reg_addr=0x3 size=4 result=0x0
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4
+[cansja]: read addr 0x00 ...
+[cansja]: read addr 0x00, 4 bytes, content 0x09
+ESP32C3_TWAI: READ addr=0x0 reg_addr=0x0 size=4 result=0x9
+ESP32C3_TWAI: WRITE addr=0x0 reg_addr=0x0 value=0x8 size=4
+ESP32_TWAI: WRITE addr=0x00 reg_addr=0x00 sja_addr=0x00 value=0x00000008 size=4
+[cansja]: write 0x08 addr 0x00
+ESP32C3_TWAI: READ addr=0x8 reg_addr=0x2 size=4
+[cansja]: read addr 0x02 ...
+[cansja]: read addr 0x02, 4 bytes, content 0x0c
+ESP32C3_TWAI: READ addr=0x8 reg_addr=0x2 size=4 result=0xc
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+ESP32C3_TWAI: WRITE addr=0x40 reg_addr=0x10 value=0x28 size=4
+ESP32_TWAI: WRITE addr=0x40 reg_addr=0x10 sja_addr=0x10 value=0x00000028 size=4
+[cansja]: write 0x28 addr 0x10
+ESP32C3_TWAI: WRITE addr=0x44 reg_addr=0x11 value=0x24 size=4
+ESP32_TWAI: WRITE addr=0x44 reg_addr=0x11 sja_addr=0x11 value=0x00000024 size=4
+[cansja]: write 0x24 addr 0x11
+ESP32C3_TWAI: WRITE addr=0x48 reg_addr=0x12 value=0x60 size=4
+ESP32_TWAI: WRITE addr=0x48 reg_addr=0x12 sja_addr=0x12 value=0x00000060 size=4
+[cansja]: write 0x60 addr 0x12
+ESP32C3_TWAI: WRITE addr=0x4c reg_addr=0x13 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x4c reg_addr=0x13 sja_addr=0x13 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x13
+ESP32C3_TWAI: WRITE addr=0x50 reg_addr=0x14 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x50 reg_addr=0x14 sja_addr=0x14 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x14
+ESP32C3_TWAI: WRITE addr=0x54 reg_addr=0x15 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x54 reg_addr=0x15 sja_addr=0x15 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x15
+ESP32C3_TWAI: WRITE addr=0x58 reg_addr=0x16 value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x58 reg_addr=0x16 sja_addr=0x16 value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x16
+ESP32C3_TWAI: WRITE addr=0x5c reg_addr=0x17 value=0xaa size=4
+ESP32_TWAI: WRITE addr=0x5c reg_addr=0x17 sja_addr=0x17 value=0x000000aa size=4
+[cansja]: write 0xaa addr 0x17
+ESP32C3_TWAI: WRITE addr=0x60 reg_addr=0x18 value=0xbb size=4
+ESP32_TWAI: WRITE addr=0x60 reg_addr=0x18 sja_addr=0x18 value=0x000000bb size=4
+[cansja]: write 0xbb addr 0x18
+ESP32C3_TWAI: WRITE addr=0x64 reg_addr=0x19 value=0xcc size=4
+ESP32_TWAI: WRITE addr=0x64 reg_addr=0x19 sja_addr=0x19 value=0x000000cc size=4
+[cansja]: write 0xcc addr 0x19
+ESP32C3_TWAI: WRITE addr=0x68 reg_addr=0x1a value=0xdd size=4
+ESP32_TWAI: WRITE addr=0x68 reg_addr=0x1a sja_addr=0x1a value=0x000000dd size=4
+[cansja]: write 0xdd addr 0x1a
+ESP32C3_TWAI: WRITE addr=0x6c reg_addr=0x1b value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x6c reg_addr=0x1b sja_addr=0x1b value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1b
+ESP32C3_TWAI: WRITE addr=0x70 reg_addr=0x1c value=0x0 size=4
+ESP32_TWAI: WRITE addr=0x70 reg_addr=0x1c sja_addr=0x1c value=0x00000000 size=4
+[cansja]: write 0x00 addr 0x1c
+ESP32C3_TWAI: WRITE addr=0x4 reg_addr=0x1 value=0x3 size=4
+ESP32_TWAI: WRITE addr=0x04 reg_addr=0x01 sja_addr=0x01 value=0x00000003 size=4
+[cansja]: write 0x03 addr 0x01
+[cansja]: BasicCAN About to send, val=0x03
+[cansja]: BasicCAN TX buffer before conversion: 00 00 00 00 00 00 28 24 60 00 00 00 00 
+[cansja]: Tx request 000 [0] SFF DAT
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed
+[cansja]: receive 088 [8] SFF DAT 00 00 80 19 00 00 80 00
+[cansja]: message store failed

@@ -31,6 +31,7 @@ typedef struct Esp32C3TWAIClass {
 
     /* 保存父类的虚函数指针，用于在子类中调用父类方法 */
     DeviceRealize parent_realize;
+    void (*parent_reset)(Object *obj, ResetType type);
     void (*parent_twai_write)(void *opaque, hwaddr addr, uint64_t value, unsigned int size);
     uint64_t (*parent_twai_read)(void *opaque, hwaddr addr, unsigned int size);
 } Esp32C3TWAIClass;
