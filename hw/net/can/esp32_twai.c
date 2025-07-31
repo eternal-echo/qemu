@@ -81,14 +81,17 @@ static void esp32_twai_irq_handler(void *opaque, int irq_num, int level)
 static uint64_t esp32_twai_read(void *opaque, hwaddr addr, unsigned int size)
 {
     Esp32TWAIState *s = ESP32_TWAI(opaque);
-    const uint64_t reg_addr = addr >> 2;
-
-    if ((s->sja_state.clock & 0x80) && reg_addr == SJA_RMC) {
+    /* 
+    * ESP32 TWAI registers are 32-bit aligned, but SJA1000 expects byte offsets.
+    * Shift addr right by 2 to convert from word address to SJA1000 register index.
+    */
+    const uint64_t sja_addr = addr >> 2;
+    if ((s->sja_state.clock & 0x80) && sja_addr == SJA_RMC) {
         /* PeliCAN Mode */
         return s->sja_state.rxmsg_cnt;
     }
 
-    return can_sja_mem_read(&s->sja_state, reg_addr, size);
+    return can_sja_mem_read(&s->sja_state, sja_addr, size);
 }
 
 /* Memory-mapped I/O write handler for the TWAI peripheral.
@@ -98,7 +101,18 @@ static void esp32_twai_write(void *opaque, hwaddr addr, uint64_t value,
                             unsigned int size)
 {
     Esp32TWAIState *s = ESP32_TWAI(opaque);
-    can_sja_mem_write(&s->sja_state, addr >> 2, value, size);    
+    /* 
+    * ESP32 TWAI registers are 32-bit aligned, but SJA1000 expects byte offsets.
+    * Shift addr right by 2 to convert from word address to SJA1000 register index.
+    */
+    const uint64_t sja_addr = addr >> 2;
+
+    if (sja_addr == SJA_CDR) {
+        value |= 0x80;
+    }
+
+
+    can_sja_mem_write(&s->sja_state, sja_addr, value, size);
 }
 
 static void esp32_twai_init(Object * obj)
