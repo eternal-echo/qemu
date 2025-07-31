@@ -104,4 +104,17 @@ pkill candump
 - 固件文件：`output/flash_image_esp32c3.bin` 和 `output/flash_image_esp32.bin`
 - **状态**: 所有ESP32 family TWAI控制器现在都支持连续多帧发送
 
+## Gemini 经验总结：
+
+- **`OBJECT_DECLARE_SIMPLE_TYPE` 宏的正确使用**：
+    - 该宏的第二个参数必须是一个 **C 标识符**（例如 `ESP32S3_TWAI`），而不是一个字符串字面量（例如 `"esp32s3.twai"`）。
+    - 字符串字面量应该通过另一个宏（例如 `TYPE_ESP32S3_TWAI`）来定义，并在需要字符串的地方使用。
+- **头文件（`.h`）中类型定义的顺序**：
+    - `struct StateStruct` 的完整定义必须在 `OBJECT_DECLARE_SIMPLE_TYPE` 宏之前。
+    - `typedef struct ClassStruct` 的完整定义也必须在 `OBJECT_DECLARE_SIMPLE_TYPE` 宏之前。
+    - `OBJECT_DECLARE_SIMPLE_TYPE` 宏本身会声明 `_GET_CLASS` 和 `_CLASS` 辅助宏，因此这些辅助宏的定义（如果需要显式定义）应该在 `OBJECT_DECLARE_SIMPLE_TYPE` 之后。
+- **调试编译错误**：
+    - 当遇到“unknown type name”或“implicit declaration”错误时，首先检查相关头文件中类型定义的顺序和宏的参数类型是否正确。
+    - 仔细比对已知正确实现（如 `esp32_twai.h` 和 `esp32c3_twai.h`）的模式，尤其是涉及 QOM 宏的部分。
+
 （可选GDB：添加`-S -gdb tcp::1234`）。

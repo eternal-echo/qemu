@@ -86,6 +86,8 @@ ninja -C build
 - **ESP32-C3 PeliCAN模式修复**: ESP32-C3硬件默认PeliCAN模式且不支持BasicCAN，需要在设备创建和重置时强制设置PeliCAN模式(clock = 0x80)
 - ESP32, ESP32-C3, ESP32-S3 TWAI都能正常工作，成功连续发送CAN消息到真实can0接口
 - 固件文件：`output/flash_image_esp32c3.bin` 和 `output/flash_image_esp32.bin`
-- **状态**: 所有ESP32 family TWAI控制器现在都支持连续多帧发送
+- **状态**: 所有ESP32 family TWAI控制器现在都支持连续多帧发送和接收 ✅
+- **ESP32-C3 接收功能**: ✅ 已修复CAN消息接收功能，通过`cansend can0 123#AABBCCDD`验证成功
+- **关键修复**: 修正了mask filter配置时序，确保在`twai_node_enable()`之前配置过滤器
 
 （可选GDB：添加`-S -gdb tcp::1234`）。

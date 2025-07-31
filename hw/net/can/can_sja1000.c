@@ -100,6 +100,9 @@ void can_sja_single_filter(struct qemu_can_filter *filter,
         if (!(amr[3] & 4)) {
             filter->can_mask |= QEMU_CAN_RTR_FLAG;
         }
+        
+        qemu_log("[SJA1000-FILTER-EFF] ACR[0-3]=0x%02x,0x%02x,0x%02x,0x%02x AMR[0-3]=0x%02x,0x%02x,0x%02x,0x%02x => can_id=0x%08x can_mask=0x%08x\n",
+                 acr[0], acr[1], acr[2], acr[3], amr[0], amr[1], amr[2], amr[3], filter->can_id, filter->can_mask);
     } else {
         filter->can_id = (uint32_t)acr[0] << 3;
         filter->can_id |= (uint32_t)acr[1] >> 5;
@@ -113,6 +116,9 @@ void can_sja_single_filter(struct qemu_can_filter *filter,
         if (!(amr[1] & 0x10)) {
             filter->can_mask |= QEMU_CAN_RTR_FLAG;
         }
+        
+        qemu_log("[SJA1000-FILTER-SFF] ACR[0-1]=0x%02x,0x%02x AMR[0-1]=0x%02x,0x%02x => can_id=0x%03x can_mask=0x%03x\n",
+                 acr[0], acr[1], amr[0], amr[1], filter->can_id, filter->can_mask);
     }
 }
 
@@ -404,11 +410,11 @@ static int frame2buff_bas(const qemu_can_frame *frame, uint8_t *buff)
 static void can_sja_update_pel_irq(CanSJA1000State *s)
 {
     int should_irq = s->interrupt_en & s->interrupt_pel;
-    qemu_log("[SJA1000-PEL-IRQ] interrupt_en=0x%02x interrupt_pel=0x%02x should_irq=%d\n", 
-             s->interrupt_en, s->interrupt_pel, should_irq ? 1 : 0);
+    qemu_log("[SJA1000-PEL-IRQ] interrupt_en=0x%02x interrupt_pel=0x%02x should_irq=%d mode=0x%02x\n", 
+             s->interrupt_en, s->interrupt_pel, should_irq ? 1 : 0, s->mode);
     
     if (should_irq) {
-        qemu_log("[SJA1000-PEL-IRQ] Raising interrupt\n");
+        qemu_log("[SJA1000-PEL-IRQ] 🚨 RAISING interrupt to ESP32-C3 (RX interrupt should trigger!)\n");
         qemu_irq_raise(s->irq);
     } else {
         qemu_log("[SJA1000-PEL-IRQ] Lowering interrupt\n");
@@ -518,7 +524,9 @@ void can_sja_mem_write(CanSJA1000State *s, hwaddr addr, uint64_t val,
                 can_sja_update_pel_irq(s);
             }
             if (0x04 & val) { /* Release Receive Buffer */
+                qemu_log("[SJA1000-CMR-RELEASE] 🗑️ Release RX buffer request: rxmsg_cnt=%d\n", s->rxmsg_cnt);
                 if (s->rxmsg_cnt <= 0) {
+                    qemu_log("[SJA1000-CMR-RELEASE] ❌ No messages to release, ignoring\n");
                     break;
                 }
 
@@ -715,10 +723,13 @@ uint64_t can_sja_mem_read(CanSJA1000State *s, hwaddr addr, unsigned size)
             break;
         case SJA_IR: /* Interrupt register, addr 3 */
             temp = s->interrupt_pel;
+            qemu_log("[SJA1000-IR-READ] 🧹 CLEARING interrupts: old_interrupt_pel=0x%02x\n", (unsigned int)temp);
             s->interrupt_pel = 0;
             if (s->rxmsg_cnt) {
                 s->interrupt_pel |= (1 << 0); /* Receive interrupt. */
+                qemu_log("[SJA1000-IR-READ] 🔄 Re-setting RX interrupt due to rxmsg_cnt=%d\n", s->rxmsg_cnt);
             }
+            qemu_log("[SJA1000-IR-READ] ✅ Final interrupt_pel=0x%02x, updating IRQ line\n", s->interrupt_pel);
             can_sja_update_pel_irq(s);
             break;
         case SJA_IER: /* Interrupt enable register, addr 4 */
@@ -820,7 +831,10 @@ ssize_t can_sja_receive(CanBusClientState *client, const qemu_can_frame *frames,
     int ret = -1;
     const qemu_can_frame *frame = frames;
 
+    qemu_log("[SJA1000-RX-ENTRY] can_sja_receive called with frames_cnt=%zu\n", frames_cnt);
+    
     if (frames_cnt <= 0) {
+        qemu_log("[SJA1000-RX-ENTRY] frames_cnt <= 0, returning\n");
         return 0;
     }
     if (frame->flags & QEMU_CAN_FRMF_TYPE_FD) {
@@ -841,11 +855,14 @@ ssize_t can_sja_receive(CanBusClientState *client, const qemu_can_frame *frames,
 
         if (can_sja_accept_filter(s, frame) == 0) {
             s->status_pel &= ~(1 << 4);
+            qemu_log("[SJA1000-RX-FILTER] ❌ Filter REJECTS message ID=0x%03X\n", frame->can_id & QEMU_CAN_EFF_MASK);
             if (DEBUG_FILTER) {
                 qemu_log("[cansja]: filter rejects message\n");
             }
             return ret;
         }
+        
+        qemu_log("[SJA1000-RX-FILTER] ✅ Filter ACCEPTS message ID=0x%03X\n", frame->can_id & QEMU_CAN_EFF_MASK);
 
         ret = frame2buff_pel(frame, rcv);
         if (ret < 0) {
@@ -868,6 +885,7 @@ ssize_t can_sja_receive(CanBusClientState *client, const qemu_can_frame *frames,
         }
         s->rx_cnt += ret;
         s->rxmsg_cnt++;
+        qemu_log("[SJA1000-RX-STORE] 📥 Message stored in RX FIFO, rx_cnt=%d, rxmsg_cnt=%d\n", s->rx_cnt, s->rxmsg_cnt);
         if (DEBUG_FILTER) {
             qemu_log("[cansja]: message stored in receive FIFO\n");
         }
@@ -881,6 +899,7 @@ ssize_t can_sja_receive(CanBusClientState *client, const qemu_can_frame *frames,
         s->interrupt_pel |= 0x01;
         s->status_pel &= ~(1 << 4);
         s->status_pel |= (1 << 0);
+        qemu_log("[SJA1000-RX-IRQ] 🔔 Setting RX interrupt: status_pel=0x%02x interrupt_pel=0x%02x\n", s->status_pel, s->interrupt_pel);
         can_sja_update_pel_irq(s);
     } else { /* BasicCAN mode */
 
